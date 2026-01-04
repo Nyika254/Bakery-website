@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff7ed;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #8b4513;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f4c2c2;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: brown;
+}
+
+footer {
+  background-color: #8b4513;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a0522d;
+}
+
+/* DARK MODE */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: black;
+}
